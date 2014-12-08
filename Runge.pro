@@ -9,7 +9,6 @@ CONFIG += qwt
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 QT += gui
 TARGET = Runge
-TARGET = qwt
 TEMPLATE = app
 QMAKE_CXXFLAGS += -std=c++0x
 
